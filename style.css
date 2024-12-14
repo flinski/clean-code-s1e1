@@ -48,6 +48,9 @@
 .section__wrapper {
   display: flex;
 }
+.section__task {
+	flex: 1 0 auto;
+}
 .list {
   margin: 0;
   padding: 0px;
@@ -104,9 +107,6 @@
 .section__label {
   display: block;
   margin: 0 0 20px;
-}
-.section__task {
-  width: 318px;
 }
 
 /* Task list */
